@@ -1,0 +1,17 @@
+.instructions{
+    font: italic 20px sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.orderedList {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  li {
+    font: italic 15px sans-serif;
+    justify-content: flex-start;
+
+  }
+}

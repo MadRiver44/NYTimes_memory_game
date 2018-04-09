@@ -3,8 +3,14 @@ $hey-look-at-me-im-a-sass-variable: #333;
 .header {
   color: $hey-look-at-me-im-a-sass-variable;
   font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 40px;
 }
 
-.placeholder {
-  font-style: italic;
+.buttonContainer {
+  display: flex;
+  justify-content: center;
 }
+
+
