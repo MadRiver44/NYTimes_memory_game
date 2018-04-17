@@ -1,23 +1,16 @@
-import React, { Component } from 'react'
-import Cards from '../Cards/Cards'
-// import PropTypes from 'prop-types'
+import React from 'react'
+import PropTypes from 'prop-types'
 import styles from './Button.scss'
 
-// const Button = props => (
-//   <div className={styles.container}>
-//     <button className={styles.button}>{props.children}</button>
-//   </div>
-// )
-
-// removed this. from props
 const Button = props => (
-  <div className={styles.container}>
-    <button className={styles.button} onClick={props.onClick}>
-      {props.diffculty}
-    </button>
-  </div>
+  <button className={styles.mainButtons} onClick={props.clickHandler}>
+    {props.difficulty.toUpperCase()}
+  </button>
 )
 
 export default Button
 
-// validate props difficulty and onClick
+Button.propTypes = {
+  clickHandler: PropTypes.func,
+  difficulty: PropTypes.string,
+}

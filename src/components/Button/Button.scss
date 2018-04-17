@@ -9,3 +9,14 @@
   display: flex;
   justify-content: center;
 }
+
+.mainButtons {
+  height: 50px;
+  width: 100px;
+  box-shadow: 2px, 2px, 2px, 1px, rgba(0, 0, 255, .2);
+  opacity: 0.6;
+  font-style: bold;
+  font-family: "Times New Roman";
+  font-size: 15px;
+};
+
