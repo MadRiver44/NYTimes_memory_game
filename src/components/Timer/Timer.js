@@ -25,6 +25,7 @@ class TimerContainer extends React.Component {
     super(props)
     this.state = {
       secondsElapsed: 0,
+      isCountingTime: true,
     }
   }
 
