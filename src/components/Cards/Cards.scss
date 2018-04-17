@@ -1,0 +1,18 @@
+.sty = {
+  display: flex;
+  height: 200px;
+  width: 320px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px;
+}
+
+.cardStyle = {
+  flex-basis: 25%;
+  height: 40px;
+  align-self: center;
+  color: blue;
+  box-shadow: 2px, 2px, 2px, 1px, rgba(0, 0, 255, .2);
+  justify-content: space-between;
+}
