@@ -20,7 +20,7 @@ Every part of the UI is a component, ala [thinking in react docs](https://reactj
 
 ## Process
 
-### I started with a whiteboard and a visual concept of what I wanted to accomplish and a psuedo workflow... 
+### I started with a whiteboard and a visual concept of what I wanted to accomplish and a psuedo workflow... yes I put a whitboard in my house!
 
 ![Whiteboard](https://user-images.githubusercontent.com/7386478/38876458-823a4430-422a-11e8-856d-f1c660628be3.jpg)
 
