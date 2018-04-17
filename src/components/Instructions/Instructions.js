@@ -3,7 +3,7 @@ import styles from './Instructions.scss'
 
 const Instructions = () => (
   <div>
-    <div className={styles.instructions}>Instuctions.</div>
+    <div className={styles.instructions}>Instuctions</div>
     <ol className={styles.orderedList}>
       <li>The cards will appear face down</li>
       <li>Select a card</li>
