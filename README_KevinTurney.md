@@ -16,7 +16,7 @@ I improved my understnding of conditional rendering. There were many way to solv
 
 ## Walkthough of the app
 
-Every part of the UI is a companent, ala [thinking in react docs](https://reactjs.org/docs/thinking-in-react.html). 
+Every part of the UI is a component, ala [thinking in react docs](https://reactjs.org/docs/thinking-in-react.html). 
 
 ### <Game />
 Starting on the game board I have a small state object with six properties, four of which are filled from the axios "GET" request, the rest are used to keep track of items to determine a particular rendering. From there, a lifcycle hook is used to make sure that after the Game component mounts the data is fetched and loaded.
