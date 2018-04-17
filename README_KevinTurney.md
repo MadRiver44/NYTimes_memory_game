@@ -14,9 +14,27 @@ I improved my understnding of conditional rendering. There were many way to solv
   3. Implement a backend for authentication and score saving.
   4. Serverside rendering and routing with React Router 4
 
-## Walkthough of the app
+### Walkthough of the app
 
 Every part of the UI is a component, ala [thinking in react docs](https://reactjs.org/docs/thinking-in-react.html). 
+
+## Process
+
+### I started with a whiteboard and a visual concept of what I wanted to accomplish and a psuedo workflow... 
+
+![Whiteboard](https://user-images.githubusercontent.com/7386478/38876458-823a4430-422a-11e8-856d-f1c660628be3.jpg)
+
+Then I would set goals for the day, sometimes I reach them, sometimes not!
+
+![Standup1](https://user-images.githubusercontent.com/7386478/38876221-13daeee0-422a-11e8-9ae4-fe155b6c0f92.jpg)
+
+![Standup2](https://user-images.githubusercontent.com/7386478/38876248-2197f032-422a-11e8-9995-56858882f90f.jpg)
+
+### From there onto the project list
+
+[github projects](https://github.com/MadRiver44/NYTimes_memory_game/projects/1)
+
+## Components
 
 ### <Game />
 Starting on the game board I have a small state object with six properties, four of which are filled from the axios "GET" request, the rest are used to keep track of items to determine a particular rendering. From there, a lifcycle hook is used to make sure that after the Game component mounts the data is fetched and loaded.
